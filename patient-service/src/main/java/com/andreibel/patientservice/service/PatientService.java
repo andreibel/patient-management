@@ -79,4 +79,15 @@ public class PatientService {
         patient = patientRepository.save(patient);
         return PatientMapper.toPatientResponseDTO(patient);
     }
+
+    /**
+     * Deletes a patient from the repository by their unique identifier.
+     *
+     * @param patientId the {@link UUID} of the patient to delete
+     *                  (no action is taken if the patient does not exist)
+     */
+    public void deletePatient(UUID patientId) {
+        patientRepository.deleteById(patientId);
+
+    }
 }

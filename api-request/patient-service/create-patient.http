@@ -4,7 +4,7 @@ content-type: application/json
 
 {
   "name": "andrei belo",
-  "email": "test@gmail.com",
+  "email": "test1@gmail.com",
   "address": "123 Main St, Springfield, USA",
   "dateOfBirth": "2002-01-25",
   "registeredDate": "2024-01-25"
